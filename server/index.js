@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 // This is important for the frontend to communicate with the backend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://user-authentication-xjk8.onrender.com",
     credentials: true,
   })
 );
@@ -42,5 +42,5 @@ app.get("*", (req, res) => {
 
 connectDB();
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running`);
 });
