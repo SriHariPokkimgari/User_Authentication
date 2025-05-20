@@ -37,7 +37,7 @@ const Login = () => {
         <h2 className="text-2xl font-medium mb-2 text-gray-800">Login</h2>
 
         <a
-          href="http://localhost:8000/api/auth/google"
+          href="https://user-authentication-xjk8.onrender.com/api/auth/google"
           className="w-full  bg-white border border-gray-300 text-gray-700 py-2 my-4 rounded font-medium flex items-center justify-center  hover:bg-gray-50"
         >
           <img

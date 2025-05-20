@@ -45,7 +45,9 @@ router.get(
       expiresIn: "1h",
     });
 
-    res.redirect(`http://localhost:5173/profile?token=${token}`);
+    res.redirect(
+      `https://user-authentication-xjk8.onrender.com/profile?token=${token}`
+    );
   }
 );
 
