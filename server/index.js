@@ -42,5 +42,7 @@ app.get("*", (req, res) => {
 
 connectDB();
 app.listen(PORT, () => {
-  console.log(`Server is running`);
+  console.log(
+    `Server is running at https://user-authentication-xjk8.onrender.com`
+  );
 });
